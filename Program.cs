@@ -97,3 +97,14 @@ int FindIndex(int[] numbers, int target)
 
     return -1;
 }
+
+
+
+// // вариант 1
+
+double CalculateAverage(int[] numbers)
+{
+    return (double)SumArray(numbers) / numbers.Length;
+}
+
+Console.WriteLine($"Среднее: {CalculateAverage(scores)}");
